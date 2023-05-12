@@ -4,12 +4,15 @@
   "description": "",
   "main": "api/index.ts",
   "scripts": {
-    "start": "ts-node api/index.ts"
+    "start": "ts-node pages/api/handler.ts",
+    "dev": "next dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@now/node": "^1.8.5",
+    "@types/react": "18.2.6",
+    "@vercel/node": "^2.14.2",
+    "next": "^13.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
